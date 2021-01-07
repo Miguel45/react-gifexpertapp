@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo GiftGrid.js Debe mostrarse bien el componente en un snapshot 1`] = `
+<Fragment>
+  <h3>
+     
+    spiderman
+     
+  </h3>
+  <h4
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </h4>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en el archivo GiftGrid.js debe de mostrar items cuando se cargan imágenes useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+     
+    spiderman
+     
+  </h3>
+  <h4
+    className="animate__animated animate__flash"
+  />
+  <div
+    className="card-grid"
+  >
+    <GridItem
+      id="abc"
+      key="abc"
+      title="Cualquier cosa "
+      url="https://localhost/cualquiercosa/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;

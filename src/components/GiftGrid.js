@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { useFetchGifs } from '../hooks/useFetchGifs'
 
 import { GridItem } from './GridItem'
@@ -13,7 +14,7 @@ export const GiftGrid = ({ category }) => {
 
             <h4 className="animate__animated animate__flash">{ loading && 'Cargando...' }</h4>
         
-            <div className='card-grid animate__animated animate__fadeIn'>
+            <div className='card-grid'>
                 {
                     images.map((img) => <GridItem key={img.id} {...img} />)
                 }
@@ -21,4 +22,8 @@ export const GiftGrid = ({ category }) => {
         
         </>
     )
+}
+
+GiftGrid.propTypes = {
+    category: PropTypes.string.isRequired
 }

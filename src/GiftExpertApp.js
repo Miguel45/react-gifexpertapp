@@ -2,9 +2,9 @@ import React from 'react'
 import { AddCategory } from './components/AddCategory'
 import { GiftGrid } from './components/GiftGrid'
 
-export const GiftExpertApp = () => {
+export const GiftExpertApp = ({ defaultCategories = []}) => {
 
-    const [categories, setCategories] = React.useState(['One Punch', 'Samurai X', 'Dragon Ball']);
+    const [categories, setCategories] = React.useState(defaultCategories);
 
     return (
         <>

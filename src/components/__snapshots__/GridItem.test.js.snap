@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo GridItem.js Debe mostrarse bien el componente en un snapshot 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Spiderman"
+    src="https://as.com/meristation/imagenes/2020/09/30/noticias/1601498876_582320_1601498920_noticia_normal.jpg"
+  />
+  <p>
+    Spiderman
+  </p>
+</div>
+`;
